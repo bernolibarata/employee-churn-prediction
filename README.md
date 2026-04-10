@@ -80,15 +80,15 @@ Key findings:
 
 ## 🚀 Future Work
 
-* Apply advanced models (e.g. XGBoost)
-* Improve handling of imbalanced data
+* Use a larger and with more comprehensive information DataSet
+* Design a specialized survey to collect more relevant data for attrition analysis
 * Deploy the model (API or dashboard)
 
 ---
 
-## 👤 Author
+## 👤 Author(s)
 
-* [Your Name]
+* Group 2 of 9th Edition of Samsung AI Course
 
 ---
 
