@@ -48,7 +48,7 @@ Key findings:
 * Encoding categorical variables
 * Feature scaling
 * Handling class imbalance
-* Train/test split (stratified)
+* Train/test split
 
 ---
 
