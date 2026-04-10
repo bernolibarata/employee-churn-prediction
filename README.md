@@ -1,26 +1,97 @@
-# Employee Churn Prediction using Machine Learning
+# 📊 Employee Churn Prediction
 
-🚧 **Work in Progress** 🚧  
-This project is currently under active development.
+## 📌 Overview
 
----
+This project focuses on analyzing and predicting **employee attrition (churn)** using Data Analysis and Machine Learning techniques.
 
-## 📌 Project Overview
-Employee churn (also known as employee attrition) is a significant challenge for organizations, leading to increased recruitment costs, productivity loss, and operational disruption.  
-
-This project aims to develop a **machine learning model capable of predicting the probability of an employee leaving the company**, with the goal of supporting **Human Resources (HR) and management decision-making**.
-
-The focus is on building an **interpretable and business-oriented solution**, rather than a purely technical model.
+The analysis is based on the IBM HR Analytics dataset, aiming to identify patterns and key factors that influence employee turnover .
 
 ---
 
-## 🎯 Project Goals
-- Predict employee churn using supervised machine learning
-- Identify key factors contributing to employee attrition
-- Support proactive HR strategies (retention and workforce planning)
-- Provide explainable insights to decision-makers
-- Expose predictions through a simple API
+## 🎯 Objectives
 
+* Analyze factors related to employee churn
+* Explore and preprocess the dataset
+* Build and compare machine learning models
+* Identify the best performing model
 
-## Project Status
-Work ongoing. New updates soon!
+---
+
+## 📂 Dataset
+
+* IBM HR Analytics Dataset (Kaggle)
+* ~1470 employees and 34 features
+* Includes demographic, job-related and satisfaction data
+* Imbalanced dataset (~16% attrition) 
+
+---
+
+## 🔍 What We Did
+
+### 📊 Data Analysis (EDA)
+
+* Checked data quality (no missing values)
+* Analyzed correlations between features
+* Explored patterns related to attrition
+
+Key findings:
+
+* Employees with **less experience** are more likely to leave
+* **Lower salaries** are associated with higher attrition
+* **Overtime and frequent travel** increase the likelihood of leaving
+* **Single employees** show higher churn rates 
+
+---
+
+### ⚙️ Data Preparation
+
+* Encoding categorical variables
+* Feature scaling
+* Handling class imbalance
+* Train/test split (stratified)
+
+---
+
+### 🤖 Models Used
+
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Tree
+* Random Forest
+* Support Vector Machine (SVM)
+
+---
+
+### 📈 Results
+
+* Models were evaluated using Precision, Recall, F1-score and Average Precision
+* Feature engineering improved model performance
+* **Best model: Logistic Regression (AP ≈ 0.62)** 
+
+---
+
+## 💡 Key Takeaways
+
+* Salary, experience and work conditions strongly impact attrition
+* Overtime is one of the most relevant factors
+* Proper feature engineering significantly improves results
+
+---
+
+## 🚀 Future Work
+
+* Apply advanced models (e.g. XGBoost)
+* Improve handling of imbalanced data
+* Deploy the model (API or dashboard)
+
+---
+
+## 👤 Author
+
+* [Your Name]
+
+---
+
+## ⭐ Project Status
+
+✔️ Completed (Academic Project)
