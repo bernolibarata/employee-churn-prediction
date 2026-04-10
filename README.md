@@ -64,7 +64,7 @@ Key findings:
 
 ### 📈 Results
 
-* Models were evaluated using Precision, Recall, F1-score and Average Precision
+* ROI Estimation: 3.5M $
 * Feature engineering improved model performance
 * **Best model: Logistic Regression (AP ≈ 0.62)** 
 
@@ -95,3 +95,8 @@ Key findings:
 ## ⭐ Project Status
 
 ✔️ Completed (Academic Project)
+
+---
+
+## Report
+* For full details go to the report folder!
