@@ -91,12 +91,9 @@ Key findings:
 * Group 2 of 9th Edition of Samsung AI Course
 
 ---
+## Report
+* For full details go to the report folder!
 
 ## ⭐ Project Status
 
 ✔️ Completed (Academic Project)
-
----
-
-## Report
-* For full details go to the report folder!
